@@ -106,14 +106,15 @@ class Bot:
 
         print("requested to follow the following accounts: ", followed)
 
+# Future feature:
+# (1) unfollow accounts that do not follow back
+# (2) keep a file that record accounts that are unfollowed through the app and
+#     make sure future app run do not re-request following these accounts
+# (3) like the first 9 pictures of public accounts
+# (4) store account credential separately
 
 def main():
-    # my_bot = Bot("ms.y.english", "sS010126+")
-    # my_bot = Bot("yvon_test_ac", "testpassword")
-    # my_bot = Bot("waylaidbydays", "sS010126:")
-    # my_bot = Bot("chelhihi", "sS0101266")
-    my_bot = Bot("vonniedanse", "sS010126!")
-    # my_bot = Bot("yvoniwai", "sS010126@")
+    my_bot = Bot("******", "*****+")
     my_bot.login()
     target_followers = my_bot.get_followers("bno_working_potatoes")
     my_bot.follow_followers(target_followers)
