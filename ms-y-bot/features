@@ -1,0 +1,11 @@
+features:
+(1) unfollow accounts that do not follow back
+        (2) keep a file that record accounts that are unfollowed through the app and
+            make sure future app run do not re-request following these accounts
+        (3) like the first 9 pictures of public accounts
+(3.1) for public accounts, detect if account is for business/
+(4) store account credential separately
+        (5) detect warnings
+(6) build a list of account that unfollowed Ms Y
+(7) deploy on AWS
+(8) maintain list of followers snapshots and identifier unfollowers
