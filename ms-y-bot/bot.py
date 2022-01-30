@@ -260,20 +260,6 @@ def main():
  
     ''')
 
-    # my_bot = Bot("ms.y.english", "sS010126:")
-    # my_bot = Bot("tessstytest", "testpassword")
-    my_bot = Bot("where.reasonsbegin", "sS010126+")
-    # my_bot = Bot("chelhihi", "sS0101266")
-    # my_bot = Bot("vonniedanse", "sS010126!")
-    # my_bot = Bot("yvoniwai", "sS010126@")
-    my_bot.login()
-
-    logger.info("app started at: {}".format(my_bot.app_start))
-
-    scrap_and_follow(my_bot, "adellbridges")
-    # scrap_only(my_bot, "")
-    # follow_only(my_bot, "")
-
     # my_bot = Bot("*", "*")
     # my_bot.login()
 
