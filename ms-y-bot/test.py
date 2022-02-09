@@ -30,5 +30,18 @@ def testRun():
     logger.info('Total = {}'.format(testList))
     s.enter(10, 1, testRun, ())
 
-s.enter(1, 1, testRun)
-s.run()
+def get_follower_number(string):
+    follower_number_string = string
+
+    # follower_number = float(follower_number_string[:len(
+    #     follower_number_string) - 1]) * 1000 if 'k' in follower_number_string else follower_number_string
+    # print(follower_number)
+
+    # print((float(follower_number_string[:len(
+    #     follower_number_string) - 1])*1000) > 2000)
+
+    print(int("1234".replace(",", "")))
+
+# s.enter(1, 1, testRun)
+# s.run()
+get_follower_number('22.2k')
